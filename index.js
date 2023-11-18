@@ -5,7 +5,7 @@ let day = new Date().getDate();
 
 function calc() {
     let priceDay = num.value / 30
-    result.innerHTML = Math.round(priceDay * (30 - day + 1));
+    result.innerHTML = `-${Math.round(priceDay * (30 - day + 1))} грн.`;
 }
 
 btn.addEventListener('click', calc)
