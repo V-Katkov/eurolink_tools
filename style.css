@@ -77,7 +77,8 @@ h1 {
     margin-bottom: 20px;
 }
 #result {
+    text-align: center;
     height: 50px;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
 }
